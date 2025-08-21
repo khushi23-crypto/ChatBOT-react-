@@ -6,8 +6,6 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import React, { useState } from 'react';
 import Logo from "../images/chatbot.png";
-
-
 function Navigationbar({darkMode, setDarkMode}) {
     const [showLogin, setShowLogin] = useState(false);
     const toggleTheme = () => {
@@ -15,7 +13,6 @@ function Navigationbar({darkMode, setDarkMode}) {
         document.body.classList.toggle("bg-dark");
         document.body.classList.toggle("text-light");
     };
-
     return (
         <>
             <Navbar bg={darkMode ? "dark" : "light"} variant={darkMode ? "dark" : "light"} className="shadow-sm py-1" expand="lg" >
@@ -62,7 +59,6 @@ function Navigationbar({darkMode, setDarkMode}) {
                         zIndex: 1000
                     }}
                 >
-
                     <h5 className="text-center mb-3 text-white">Login</h5>
                     <Form>
                         <Form.Group className="mb-2 text-white">
