@@ -32,7 +32,7 @@
   font-size: 2vmax;
 }
 .headings span:nth-child(1) {
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 600;
   background: linear-gradient(
     to right,
@@ -44,7 +44,7 @@
   color: transparent;
 }
 .headings span:nth-child(2) {
-  font-size: 2.9em;
+  font-size: 2.3em;
   font-weight: 600;
   background: linear-gradient(
     to right,
@@ -56,7 +56,7 @@
   color: transparent;
 }
 .headings span:nth-child(3) {
-  font-size: 1.5em;
+  font-size: 1.2em;
   background-color: antiquewhite;
   background-clip: text;
 }
@@ -85,4 +85,28 @@ background-color: rgb(211, 202, 211);
 #sendbtn svg{
 width: 25px;
 height: 25px;
+}
+.message {
+  max-width: 50%;
+  margin: 10px 0;
+  overflow-y: auto;
+  margin-left: 360px;
+  font-size: 1.2em;
+  font-weight: 500;
+  outline: black;
+  background-color: rgb(166, 165, 167);
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px; 
+  color: black;
+}
+
+.message svg{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  outline: black;
+  border: 1px solid black;
+
 }

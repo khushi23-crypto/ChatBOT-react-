@@ -1,5 +1,5 @@
-const api = "AIzaSyAUeaWaNOSVoRcAL43CX9lFJDEacuJ7sbY"
 import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from "@google/generative-ai";
+const api = "AIzaSyAUeaWaNOSVoRcAL43CX9lFJDEacuJ7sbY"
 
 const genAI = new GoogleGenerativeAI(api);
 
@@ -21,6 +21,6 @@ async function run(prompt) {
         ],
     });
     const result = await chatSection.sendMessage(prompt);
-    console.error(result.response.text());
+return await result.response.text();
 }
-export default run();
+export default run;
