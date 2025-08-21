@@ -24,34 +24,39 @@ Users can send messages and get AI-powered responses in real-time.
 chatbot-app/
 │
 ├─ public/
-│ ├─ chat-bot.png
-│ └─ index.html
+│   ├─ chat-bot.png
+│   └─ index.html
 │
 ├─ src/
-│ ├─ components/
-| | ├─Navigationbar.jsx
-| | ├─Background.jsx
-| | ├─Background.css
-| | ├─Sidebar
-| | | ├─Sidebar.jsx
-| | | ├─Sidebar.css
-| | | ├─Seperation
-| | | | ├─Seperation.jsx
-| | | | ├─Seperation.css
-│ │ ├─ ChatBox
-| | | ├─ChatBox.jsx
-| | | ├─ChatBox.css
-│ │ └─ Footer
-│ | | ├─Footer.jsx
-| | | ├─Footer.css
-| ├─content
-| | | ├─UserContext.jsx
-| ├─images
-| | ├─chatbot.png
-| ├─video
-| | ├─3129595-uhd_3840_2160_30fps.mp4
-│ ├─ App.jsx
-│ ├─ index.js
+│   ├─ components/
+│   │   ├─ Navigationbar.jsx
+│   │   ├─ Background.jsx
+│   │   ├─ Background.css
+│   │   ├─ Sidebar/
+│   │   │   ├─ Sidebar.jsx
+│   │   │   ├─ Sidebar.css
+│   │   │   └─ Seperation/
+│   │   │       ├─ Seperation.jsx
+│   │   │       └─ Seperation.css
+│   │   ├─ ChatBox/
+│   │   │   ├─ ChatBox.jsx
+│   │   │   └─ ChatBox.css
+│   │   └─ Footer/
+│   │       ├─ Footer.jsx
+│   │       └─ Footer.css
+│   │
+│   ├─ content/
+│   │   └─ UserContext.jsx
+│   │
+│   ├─ images/
+│   │   └─ chatbot.png
+│   │
+│   ├─ video/
+│   │   └─ 3129595-uhd_3840_2160_30fps.mp4
+│   │
+│   ├─ App.jsx
+│   └─ index.js
+│
 ├─ package.json
 └─ README.md
 
