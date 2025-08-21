@@ -2,6 +2,7 @@ import Navigationbar from './components/Navigationbar';
 import Background from './components/Background';
 import Sidebar from './components/Sidebar/Sidebar'
 import Seperation from './components/Seperation/Seperation';
+import ChatBox from './components/Chatbox/ChatBox';
 import './App.css'
 import React, { useState } from 'react';
 function App() {
@@ -9,10 +10,13 @@ function App() {
   return (
     <div className="App">
       <Navigationbar darkMode={darkMode}
-      setDarkMode={setDarkMode}/>
+        setDarkMode={setDarkMode} />
       <Background />
-      <Sidebar darkMode={darkMode}/>
-      <Seperation/>
+      <div className='main-content'>
+        <Sidebar darkMode={darkMode} />
+        <Seperation />
+        <ChatBox darkMode={darkMode} />
+      </div>
     </div>
   );
 }
