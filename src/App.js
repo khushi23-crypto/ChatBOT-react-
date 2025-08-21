@@ -3,6 +3,7 @@ import Background from './components/Background';
 import Sidebar from './components/Sidebar/Sidebar'
 import Seperation from './components/Seperation/Seperation';
 import ChatBox from './components/Chatbox/ChatBox';
+import Footer from './components/Footer/Footer';
 import './App.css'
 import React, { useState } from 'react';
 function App() {
@@ -17,6 +18,8 @@ function App() {
         <Seperation />
         <ChatBox darkMode={darkMode} />
       </div>
+      <hr></hr>
+      <Footer darkMode={darkMode} />
     </div>
   );
 }

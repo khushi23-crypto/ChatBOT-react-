@@ -1,0 +1,116 @@
+.footer {
+  width: 100%;
+  padding: 30px 50px;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.footer.light {
+  background: #f7f7f7;
+  color: #222;
+}
+
+.footer.dark {
+  background: #121212;
+  color: #eaeaea;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section h2, .footer-section h3 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.footer-section p {
+  font-size: 0.95rem;
+  opacity: 0.8;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 6px 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer.light .footer-section ul li a {
+  color: #222;
+}
+
+.footer.dark .footer-section ul li a {
+  color: #eaeaea;
+}
+
+.footer-section ul li a:hover {
+  color: #6a11cb;
+}
+
+.footer-section.newsletter form {
+  display: flex;
+  gap: 8px;
+}
+
+.footer-section.newsletter input {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  flex: 1;
+}
+
+.footer-section.newsletter button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.footer-section.newsletter button:hover {
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+}
+
+.footer-social {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-social a {
+  color: inherit;
+  font-size: 1.4rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #6a11cb;
+  transform: scale(1.2);
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 0.85rem;
+  opacity: 0.6;
+  margin-top: 15px;
+}
